@@ -1,0 +1,161 @@
+*{margin:0;padding:0}
+body{background:#5B5B5B }
+.fix{overflow:hidden}
+.main{width:1000px;margin:0 auto;display:block;font-family:arial;font-size:20px}
+.h_text{
+        margin: 20px 0px 15px 0px;
+	font-family:'CooperBlack';
+	font-size:38px;
+	color:#2C519E;
+}
+.body_wrapper_calculator{
+	width:1000px;
+	margin:0 auto;
+	height:1000px; 
+}
+
+.cal{margin:50px;border:1px}
+.gold{}
+.silver{}
+.crops_naturally{}
+.crops_water{}
+.cash{}
+.loans{}
+.profit{}
+.stock{}
+.due_payment{}
+.land{}
+.btn{margin-left:622px}
+.a1{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a2{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a3{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a4{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a5{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a6{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a7{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a8{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a9{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.a10{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+
+.num1{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num2{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num3{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num4{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num5{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num6{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num7{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num8{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num9{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.num10{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+.b1{float:left;width:245px;border:1px solid black;height:55px}
+
+.calculate{float:right;margin:10px 10px 10px 10px;padding:12px;width:100px;background-color: green}
+.reset{float:right;margin:10px 10px 10px 10px;padding:12px;width:100px;background-color: red}
+
+
+.a1 p{margin:14px 0px 0px 15px}
+.a2 p{margin:14px 0px 0px 15px}
+.a3 p{margin:14px 0px 0px 15px}
+.a4 p{margin:14px 0px 0px 15px}
+.a5 p{margin:14px 0px 0px 15px}
+.a6 p{margin:14px 0px 0px 15px}
+.a7 p{margin:14px 0px 0px 15px}
+.a8 p{margin:14px 0px 0px 15px}
+.a9 p{margin:14px 0px 0px 15px}
+.a10 p{margin:14px 0px 0px 15px}
+
+.total{margin-top:30px}
+.taka{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.taka1{float:left;width:245px;border:1px solid black;height:55px}
+.total1{height:36px;float:right;margin:8px 68px 0px 0px;width:px;margin-right:8px;}
+.taka p{margin:14px 0px 0px 15px}
+
+.jakat_given{float:left;width:609px;border:1px solid black;height:55px;color:#2C519E;}
+.jakat1{float:left;width:245px;border:1px solid black;height:55px}
+.given_jakat{height:36px;float:right;margin:9px 68px 0px 0px;width:px;margin-right:8px;}
+.jakat_given p{margin:14px 0px 0px 15px}
+
+
+/*code for logo*/
+.social_bar{
+	clear:both;
+	position:fixed;
+	float:left;
+	width:60px;
+}
+/*fb code for facebook*/
+.fb_j {
+	margin-top:-885px;
+	float:left;
+	width:60px;
+	height:42px;
+}
+.fb_j img{
+	width:50px;
+	height:42px;
+	
+	-webkit-transition:all 0.1s ease;
+       -moz-transition:all 0.1s ease;
+        -o-transition:all 0.1s ease;
+        -ms-transition:all 1s ease;
+              transition:all 0.1s ease;
+}
+.fb_j img:hover{
+	width:58px;
+	height:42px;
+}
+/*tw code for twitter*/
+.tw_j{
+	margin-top:-840px;
+	float:right;
+	width:60px;
+	height:42px;
+}
+.tw_j img{
+	width:50px;
+	height:42px;
+	
+	-webkit-transition:all 0.1s ease;
+       -moz-transition:all 0.1s ease;
+        -o-transition:all 0.1s ease;
+        -ms-transition:all 1s ease;
+              transition:all 0.1s ease;
+}
+.tw_j img:hover{
+	width:58px;
+	height:42px;
+}
+/*go code for google plus*/
+.go_j{
+	margin-top:-795px;
+	float:right;
+	width:60px;
+	height:42px;
+}
+.go_j img{
+	width:50px;
+	height:42px;
+	
+	-webkit-transition:all 0.1s ease;
+       -moz-transition:all 0.1s ease;
+        -o-transition:all 0.1s ease;
+        -ms-transition:all 1s ease;
+              transition:all 0.1s ease;
+}
+.go_j img:hover{
+	width:58px;
+	height:42px;
+}
+
+
+/*end code for social bar*/

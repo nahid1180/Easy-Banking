@@ -1,0 +1,547 @@
+*{margin:0; padding:0}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+/*this code is for all pages*/
+.wrapper{
+	width:100%;
+	/*background: linear-gradient(#090, #03C);
+	background: -webkit-linear-gradient(#090, #03C);
+	background: -moz-linear-gradient(#090, #03C);*/
+        background-color:#2E5A5A;
+}
+.header{
+	width:100%;
+}
+.header_color{
+	background:#6FCEA8;
+}
+.header_color1{
+	background:#2696CC;
+	height:5px;
+}
+.manu{
+	float:right;
+	width:260px;
+}
+.manu_box a{
+	background:#0CF;
+	color:#333;
+	display:block;
+	line-height:36px;
+	text-align:center;
+	font-size: 16px;
+	float:right;
+	text-decoration:none;
+	padding-left:20px;
+	padding-right:20px;
+}
+.manu_box a:hover{
+	background:#09F;
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+}
+.manu_box_home a{
+	background:#666;
+	color:#FFF;
+	display:block;
+	line-height:36px;
+	text-align:center;
+	font-size: 16px;
+	float:right;
+	text-decoration:none;
+	padding-left:20px;
+	padding-right:20px;
+}
+/*start code for body*/
+.body_wrapper{
+	width:1000px;
+	margin:auto;
+	height:auto;
+	min-height:600px;
+	display:block;
+	overflow:hidden; 
+       
+}
+.body_wrapper_about{
+	width:1000px;
+	margin:auto;
+	height:auto; 
+}
+.body_box_text{
+	color:#000;
+	text-align:center;
+}
+/*css code for body button*/
+/*css for deposit box*/
+.body_button_diposit{
+	margin-top:145px;
+}
+/*css for dps button*/
+.body_button_dps{
+	margin-top:25px;
+}
+/*css for islamic banking button*/
+.body_button_islamic{
+	margin-top:70px;
+}
+/*css for cradit card banking button*/
+.body_button_card{
+	margin-top:70px;
+}
+.body_button_di1 a{
+	width:180px;
+	float:left;
+	padding-top:8px;
+	height:40px;
+	margin:10px;
+	background:#0CF;
+	font-size:16px;
+	border-radius: 8px 8px 8px 8px;
+	color:#000;
+	text-decoration:none;
+}
+.body_button_di1 a:hover{
+	background:#09F;
+	color:#FFF;
+	text-decoration:none;
+}
+/*css for time*/
+.time{
+	float:right;
+	font-size:14px;
+	margin:5px;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+/*code for logo*/
+.social_bar{
+	clear:both;
+	position:fixed;
+	float:left;
+	width:60px;
+}
+/*fb code for facebook*/
+.fb {
+	margin-top:-535px;
+	float:left;
+	width:60px;
+	height:42px;
+}
+.fb img{
+	width:50px;
+	height:42px;
+	
+	-webkit-transition:all 0.1s ease;
+       -moz-transition:all 0.1s ease;
+        -o-transition:all 0.1s ease;
+        -ms-transition:all 1s ease;
+              transition:all 0.1s ease;
+}
+.fb img:hover{
+	width:58px;
+	height:42px;
+}
+/*tw code for twitter*/
+.tw{
+	margin-top:-490px;
+	float:right;
+	width:60px;
+	height:42px;
+}
+.tw img{
+	width:50px;
+	height:42px;
+	
+	-webkit-transition:all 0.1s ease;
+       -moz-transition:all 0.1s ease;
+        -o-transition:all 0.1s ease;
+        -ms-transition:all 1s ease;
+              transition:all 0.1s ease;
+}
+.tw img:hover{
+	width:58px;
+	height:42px;
+}
+/*go code for google plus*/
+.go{
+	margin-top:-445px;
+	float:right;
+	width:60px;
+	height:42px;
+}
+.go img{
+	width:50px;
+	height:42px;
+	
+	-webkit-transition:all 0.1s ease;
+       -moz-transition:all 0.1s ease;
+        -o-transition:all 0.1s ease;
+        -ms-transition:all 1s ease;
+              transition:all 0.1s ease;
+}
+.go img:hover{
+	width:58px;
+	height:42px;
+}
+
+
+/*end code for social bar*/
+.footer0{
+	background:#2696CC;
+	height:35px;
+}
+.footer1{
+	background:#6FCEA8;
+	height:60px;
+	
+}
+.footer_text{
+	color:#000;
+	text-align:center;
+	font-size:18px;
+	padding-top:30px;
+}
+
+/*===============================================about page css start===================================================*/
+
+.body_color{
+	background-color:#F5F5F5;
+}
+.about_text{
+	font-family:'CooperBlack';
+	color:#2C519E;
+	font-size:30px;
+	padding-top:20px;
+	padding-left:30px;
+}
+.about_text11{
+	width:900px;
+	float:left;
+	font-family:'CooperBlack';
+	color:#2C519E;
+	font-size:26px;
+	padding-top:20px;
+	padding-left:30px;
+}
+.about_icon{
+	/*width:50px;*/
+	margin-right:15px;
+	margin-top:-10px;
+}
+.about_text1{
+	padding-left:30px;
+	font-size:16px;
+	color:#000;
+}
+.about_text12{
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:50px;
+	font-size:16px;
+	color:#000;
+	text-align:justify;
+}
+/*==============================================css for zakat text=====================================*/
+.zakat a{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.zakat a:hover{
+	color:#000;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+/*====================================css code for contact us page======================================*/
+.contact1{
+	font-family:'CooperBlack';
+	font-size:28px;
+	color:#2C519E;
+	padding-top:20px;
+	padding-left:31px;
+}
+.contact_box{
+	width:935px;
+	height:50px;
+	background:#4EAFF8;
+	margin:20px;
+	margin-left:30px;
+	float:left;
+	border-radius:10px 10px 10px 10px;
+}
+.contact_box_text{
+	color:#00C;
+	font-size:20px;
+	text-align:left;
+	padding:10px;
+}
+.contact_form{
+	color:#000;
+	width:800px;
+	margin:30px;
+	height:400px;
+	font-size:18px;
+}
+.contact_form_text{
+	margin-top:10px;
+}
+.contact_form_submit{
+	margin-top:30px;
+}
+
+
+/*=============================================css for registration page===================================================*/
+.reg_text{
+	font-family:'CooperBlack';
+	font-size:28px;
+	color:#2C519E;
+	padding-top:20px;
+	padding-left:31px;
+}
+.reg{
+	width:490px;
+	float:left;
+	/*height:200px;*/
+	margin-top:20px;
+	margin-left:100px;
+}
+.reg1{
+	color:#000;
+	font-size:15px;
+	width:240px;
+	float:left;
+	height:40px;
+}
+.reg2{
+	color:#000;
+	font-size:15px;
+	width:12px;
+	height:40px;
+	float:left;
+	font-weight:bold;
+}
+.reg3{
+	width:200px;
+	float:left;
+	color:#000;
+	font-size:15px;
+}
+.reg4{
+	float:right;
+	color:#000;
+	font-size:15px;
+	margin-top:30px;
+}
+.reg5{
+	width:85px;
+	height:32px;
+}
+.reg6{
+	width:70px;
+	height:32px;
+}
+
+
+/*=================================================css for current account page===================================================*/
+
+.current1{
+	font-family:'CooperBlack';
+	font-size:28px;
+	color:#2C519E;
+	padding-top:20px;
+	padding-left:31px;
+}
+
+/*=================================================css for dps page===================================================*/
+
+.retaire1{
+	font-family:'CooperBlack';
+	font-size:28px;
+	color:#00A651;
+	padding-top:20px;
+	padding-left:31px;
+}
+.retaire2{
+	font-family:'CooperBlack';
+	font-size:22px;
+	color:#2C519E;
+	padding-top:20px;
+	padding-left:41px;
+}
+
+.retaired_form{
+	width:1000px;
+	margin:20px;
+}
+
+.retaired_form1{
+	width:400px;
+	margin-left:40px;
+	float:left;
+	font-size:16px;
+	font-weight:700;
+}
+.retaired_form2{
+	width:220px;
+	float:right;
+	margin-right:160px;
+	font-size:16px;
+	margin-top:10px;
+}
+.retaired_form2_haj{
+	width:220px;
+	float:left;
+	/*margin-right:160px;*/
+	font-size:16px;
+	margin-top:2px;
+	margin-left:-30px;
+}
+.retaired_form3{
+	color:#CE0000;
+	font-weight:300;
+}
+.retaired_line{
+	width:1000px;
+	height:2px;
+	background-color:#2C519E;
+	margin-top:140px
+}
+
+/*=======================================================css for profit page===================================================*/
+.profit_text{
+	margin:20px;
+	margin-left:32px;
+	color:#000;
+}
+.profit_text1{
+	font-size:22px;
+	color:#09F;
+	padding-left:70px;
+	padding-top:10px;
+}
+.profit_image{
+	float:left;
+}
+.profit_box1{
+	width:480px;
+	height:50px;
+	margin-left:100px;
+	margin-top:20px;
+	text-decoration:none;
+	/*background-color:#0CF;*/
+}
+.profit_box1 a:hover{
+	color:#03F;
+	font-weight:bold;
+	text-decoration:none;
+}
+.profit_box11{
+	width:490px;
+	height:50px;
+	margin-left:10px;
+	margin-top:20px;
+	text-decoration:none;
+	/*background-color:#0CF;*/
+}
+.profit_box11 a:hover{
+	color:#03F;
+	font-weight:bold;
+	text-decoration:none;
+}
+.profit_box2{
+	width:500px;
+	float:left;
+}
+.profit_box3{
+	width:500px;
+	float:right;
+}
+
+/*=====================================css for reference box ===================================================*/
+.ref_box1 a{
+	float:right;
+	margin:-6px 30px 0px 0px;
+	border:1px solid black;
+	padding:5px;
+	border-radius: 8px;
+	font-size: 18px;
+	background:#09F;
+	text-decoration:none;
+	color:#000;
+}
+.ref_box1 a:hover{
+	background:#06F;
+	text-decoration:none;
+	color:#FFF;
+}
+.ref_box2{
+	background:#CCC;
+	margin:30px 30px 0px 30px;
+}
+.ref_text{
+	margin-left:5px; 
+	color:#333;
+}
+.ref_box3 {
+	margin-left:30px;
+	float:left;
+	color:#000;
+	text-align:center;
+	text-decoration:none;
+	text-align:center;
+}
+.ref_box3 a:hover{
+	color:#03C;
+	text-decoration:none;
+}
+.ref_box4{
+	background:#CCC;
+	margin:30px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.ref_box5{
+	margin-left:30px;
+	float:left;
+	text-align:center;
+}
+.ref_box5 a:hover{
+	color:#009;
+	text-decoration:none;
+}
+.ref_box6{
+	float:right;
+	margin-top: -270px;
+}
+.ref_box7{
+	margin-left:30px;
+	float:left;
+	text-align:center;
+}
+.ref_box7 a:hover{
+	color:#009;
+	text-decoration:none;
+}
+.ref_box8 a{
+	float:right;
+	margin:-6px 30px 0 0; 
+	border:1px solid black;
+	padding:5px;
+	border-radius: 8px;
+	font-size: 18px;
+	background:#09F;
+	text-decoration:none;
+	color:#000;
+}
+.ref_box8 a:hover{
+	background:#06F;
+	text-decoration:none;
+	color:#FFF;
+}
+
+/*===============================================css for credit card page============================================================*/
